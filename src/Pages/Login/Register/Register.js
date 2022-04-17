@@ -38,13 +38,6 @@ const Register = () => {
     const email = event.target.email.value;
     const password = event.target.password.value;
 
-    // const agree=event.target.terms.checked;
-
-    // if(agree)
-    // {
-    //   createUserWithEmailAndPassword(email, password);
-    // }
-
     await createUserWithEmailAndPassword(email, password);
     await updateProfile({ displayName: name });
     alert("Updated profile");

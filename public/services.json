@@ -3,42 +3,42 @@
         "id": 1,
         "name": "MATH",
         "price": "7000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Total 30 Classes. Daily Class Test and Special Model Test",
         "img": "https://media.istockphoto.com/vectors/math-equations-written-on-a-blackboard-vector-id1219382595?k=20&m=1219382595&s=612x612&w=0&h=c6Sl7WmSHRzGBN7ZQmClLIhcv55vjStOPKc-GrpBseU="
     },
     {
         "id": 2,
         "name": "PHYSICS",
         "price": "1000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Total 35 Classes. Daily Class Test and Special Model Test",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67sDzuCxhFaMiijCThWal5N_ewX76fK0beT9-ZzCBVKUUDHlnjbn5LONsaO1-RVYyeyc&usqp=CAU"
     },
     {
         "id": 3,
         "name": "CHEMISTRY",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "description": "Total 30 Classes. Daily Class Test and Special Model Test",
+        "img": "https://media.istockphoto.com/photos/checking-the-chemical-formula-in-academic-laboratory-picture-id545286316?k=20&m=545286316&s=612x612&w=0&h=8yt4V7Ojiss8R7XppU5_Tii9ohwO8u93DvJJtKQSupc="
     },
     {
         "id": 4,
         "name": "BIOLOGY",
         "price": "8000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "description": "Total 40 Classes. Daily Class Test and Special Model Test",
+        "img": "https://image.shutterstock.com/image-vector/biology-flat-concept-vector-illustration-260nw-1753744775.jpg"
     },
     {
         "id": 5,
         "name": "ENGLISH",
         "price": "7000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Total 25 Classes. Daily Class Test and Special Model Test",
         "img": "https://media.istockphoto.com/photos/learn-english-concept-education-and-career-opportunities-picture-id1051721290?k=20&m=1051721290&s=612x612&w=0&h=1mRAOpJ1_5N5HyyLMSpSywNYJvUFEHvWfBnnvNbhWqs="
     },
     {
         "id": 6,
         "name": "BANGLA",
         "price": "3000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Total 20 Classes. Daily Class Test and Special Model Test",
         "img": "https://edge.mondly.com/blog/wp-content/uploads/2020/03/learn-bengali-1.jpg"
     }
 ]

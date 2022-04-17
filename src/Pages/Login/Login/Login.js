@@ -16,7 +16,7 @@ const Login = () => {
   const passwordRef = useRef("");
   const navigate = useNavigate();
   const location = useLocation();
-  const [agree, setAgree] = useState(false);
+  // const [agree, setAgree] = useState(false);
 
   let from = location.state?.from?.pathname || "/";
   let errorElement;
@@ -42,10 +42,8 @@ const Login = () => {
     event.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
-
-    if (agree) {
-      signInWithEmailAndPassword(email, password);
-    }
+    console.log(email,password);
+     signInWithEmailAndPassword(email, password);
   };
 
   const navigateRegister = (event) => {
@@ -74,20 +72,11 @@ const Login = () => {
           />
         </Form.Group>
 
-        {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check
-            onClick={() => setAgree(!agree)}
-            type="checkbox"
-            label="Check me out"
-          />
-        </Form.Group> */}
-
         <Button
           className="w-50 mx-auto d-block"
           variant="primary"
           type="submit"
           name="tarms"
-        //   disabled={!agree}
         >
           Login
         </Button>
