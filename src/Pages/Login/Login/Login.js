@@ -42,8 +42,8 @@ const Login = () => {
     event.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
-    console.log(email,password);
-     signInWithEmailAndPassword(email, password);
+    console.log(email, password);
+    signInWithEmailAndPassword(email, password);
   };
 
   const navigateRegister = (event) => {
@@ -53,9 +53,10 @@ const Login = () => {
   return (
     <div className="container w-50 mx-auto">
       <h2 className="text-primary text-center mt-5">Please Login</h2>
-      <Form onSubmit={handleSubmit}>
+      <Form cls onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control
+            className="p-3"
             ref={emailRef}
             type="email"
             placeholder="Enter email"
@@ -65,6 +66,7 @@ const Login = () => {
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Control
+            className="p-3"
             ref={passwordRef}
             type="password"
             placeholder="Password"
@@ -85,7 +87,7 @@ const Login = () => {
       {errorElement}
 
       <p className="mt-3">
-        New to Genius Car?{" "}
+        Do Not Register?{" "}
         <Link
           to="/register"
           className="text-primary pe-auto text-decoration-none"
