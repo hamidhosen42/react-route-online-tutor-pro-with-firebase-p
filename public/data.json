@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name": "Liam",
+        "img": "https://media.istockphoto.com/photos/cheerful-fashionable-adult-man-in-city-setting-picture-id1310533180?b=1&k=20&m=1310533180&s=170667a&w=0&h=EdRuvIkrMifhyZJkHXf5Pk68ri44_g7OFnU8lIdbc-c=",
+        "title": "Very good book.Recommended for beginners.",
+        "rating": "4"
+    },
+    {
+        "id":2,
+        "name": "Noah",
+        "img": "https://media.istockphoto.com/photos/smiling-mixed-race-mature-man-on-grey-background-picture-id1319763895?b=1&k=20&m=1319763895&s=170667a&w=0&h=jhqKyg62cQVZ-NjDQjpcenCdHDrprkN4caRjk4K76E8=",
+        "title": "This book helps me a lot to start with",
+        "rating": "5"
+    },
+    {
+        "id":3,
+        "name": "Olive",
+        "img": "https://media.istockphoto.com/photos/fit-man-standing-outdoors-in-a-city-picture-id1299360138?b=1&k=20&m=1299360138&s=170667a&w=0&h=qDYNwRf6CwbkyWK-WEmhMJ_KaZ4hJFmy_89PFdz6AsI=",
+        "title": "Love this book. Author is really a talented person.",
+        "rating": "4.5"
+    },
+    {
+        "id":4,
+        "name": "Elijah",
+        "img": "https://images.unsplash.com/photo-1552642986-ccb41e7059e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHNvbWUlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+        "title": "Very organized and informative this book.",
+        "rating": "5"
+    },
+    {
+        "id":5,
+        "name": "William",
+        "img": "https://images.unsplash.com/photo-1600804889194-e6fbf08ddb39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFuZHNvbWUlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+        "title": "This book is amazing for beginners.I loved it.",
+        "rating": "3.6"
+    },
+    {
+        "id":6,
+        "name": "James",
+        "img": "https://images.unsplash.com/photo-1588731222899-68315ddd5e8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFuZHNvbWUlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+        "title": "It's a book good informatics book for beginners",
+        "rating": "4"
+    }
+]

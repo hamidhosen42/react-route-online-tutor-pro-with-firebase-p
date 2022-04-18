@@ -8,6 +8,7 @@ import "./Register.css";
 import auth from "../../../firebase.init";
 import SocialLogin from "../SocialLogin/SocialLogin";
 import { Form } from "react-bootstrap";
+import { ToastContainer, toast } from "react-toastify";
 
 const Register = () => {
   const [agree, setAgree] = useState(false);
