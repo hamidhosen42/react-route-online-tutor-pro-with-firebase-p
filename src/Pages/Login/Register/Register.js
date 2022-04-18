@@ -48,7 +48,7 @@ const Register = () => {
   return (
     <div className="register-form mt-3">
       <h2 style={{ textAlign: "center" }}>Please Register</h2>
-      <form onSubmit={handleRegister}>
+      <form onSubmit={handleRegister} className="mt-3">
         <input type="text" name="name" id="" placeholder="Your Name" />
 
         <input
@@ -80,7 +80,7 @@ const Register = () => {
 
         <input
           disabled={!agree}
-          className="mt-3"
+          className="mt-3 bg-primary  text-white rounded-2"
           type="submit"
           value="Register"
         />

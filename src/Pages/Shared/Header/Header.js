@@ -4,7 +4,6 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase.init';
-import logo from '../../../images/logo.png'
 
 const Header = () => {
     const [user] = useAuthState(auth);
@@ -24,7 +23,7 @@ const Header = () => {
         >
           <Container>
             <Navbar.Brand as={Link} to="/">
-              Professional Tutor Pro
+              Hamid Online Tutor Pro
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

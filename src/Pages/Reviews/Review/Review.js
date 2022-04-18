@@ -6,10 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Review = (props) => {
   const { name, img, title, rating } = props.review;
   return (
-    <div className="service">
-      <img className="w-75 h-50" src={img} alt="" />
-      <h2 className="mt-3">{name}</h2>
-      <h3>Name : {name}</h3>
+    <div className="service" style={{height:"350px"}}>
+      <img className="w-100 h-50" src={img} alt="" />
+      <h3 className="mt-3">Name : {name}</h3>
       <p>
         <small>{title}</small>
       </p>

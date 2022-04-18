@@ -16,7 +16,9 @@ const About = () => {
           <Card.Title>Name: Hamid Hosen</Card.Title>
           <Card.Text>
             For the next four months I am trying to be a full stack web
-            development. And trying to learn Flutter Mobile App by myself.
+            development.I am currently working with react and trying to be a
+            good react developer. I have a plan to work with database for the
+            next four months. And trying to learn Flutter Mobile App by myself.
           </Card.Text>
         </Card.Body>
       </Card>

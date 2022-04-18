@@ -20,6 +20,9 @@ const Banner = () => {
             src={banner1}
             alt="First slide"
           />
+          <Carousel.Caption>
+            <h3 className="text-dark">Hamid Online Tutor Pro</h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -28,6 +31,9 @@ const Banner = () => {
             src={banner2}
             alt="Second slide"
           />
+          <Carousel.Caption>
+            <h3 className="text-dark">Hamid Online Tutor Pro</h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -36,6 +42,9 @@ const Banner = () => {
             src={banner3}
             alt="Third slide"
           />
+          <Carousel.Caption>
+            <h3 className="text-dark">Hamid Online Tutor Pro</h3>
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     );
