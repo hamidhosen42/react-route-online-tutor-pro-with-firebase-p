@@ -4,6 +4,8 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa";
+import { FaMailBulk } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
 
 const Footer = () => {
     const today = new Date();
@@ -32,7 +34,18 @@ const Footer = () => {
               <FaLinkedin />
               <FaGooglePlusG />
             </div>
-            <div></div>
+            <div className="mt-4">
+              <span>
+                <FaMailBulk />
+                <span> hamidhosen73848@gmail.com</span>
+              </span>
+            </div>
+            <div className='mt-3'>
+              <span>
+                <FaMobileAlt />
+                <span> 01858540338</span>
+              </span>
+            </div>
           </div>
         </footer>
         <p className="text-center text-white pb-5">
